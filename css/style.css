@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'VarelaRound';
+    src: url(../fonts/VarelaRound-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Thin';
+    src: url(../fonts/Montserrat-Thin.ttf);
+}
+
+* {
+    font-family: 'VarelaRound';
+}
+
+.thin {
+    font-family: 'Thin';
+}
+
+body {
+    background-color: #F5F5F5;
+    /* background-image: url(../img/flat-wallpaper-hd-23.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    opacity: .93;
+}
+
+.title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#main-section {
+    margin-top: 20px;
+    
+}
+
+
+/* Main Header */
+#main-header {
+    height: 200px;
+    margin-bottom: 20px;
+    /* border-left: 2px solid #ff9800; */
+    background-image: url(../img/luke-guedon-beauty.jpg);
+    background-size: cover;
+    background-position-y: -100px;
+}
+
+#main-content {
+    height: 420px;
+}
+
+#header-title {
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: 35px;
+    color: white;
+    background-color: black;
+    opacity: .50;
+    width: 310px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+
+/* Side bar */
+#side-bar {
+    height: 640px;
+    /* border: 2px solid #03A9F4;
+    border-radius: 50px; */
+}
+
+button.side-bar-button {
+    width: 100%;
+    height: 70px;
+    border-radius: 0 !important;
+    background-color: white !important;
+    color: #03a9f4 !important;
+    border: none !important;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 0.85em;
+}
+
+button:hover {
+    background-color: #2196F3 !important;
+    color: white !important;
+}
+
+#button-wrapper {
+    margin-top: 10px;
+}
+
+#side-bar-content {
+    height: 270px;
+    background-color: #03a9f4;
+    /* background-image: url(../img/profile-circle.png);
+    background-size: 250px;
+    background-repeat: no-repeat; */
+}
+
+#profile-image {
+    margin-top: 7px;
+    height: 250px;
+}
+
+/* Education */
+#education-wrapper > h6 {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.educational-content {
+    border-left: 2px solid #66bb6a;
+    padding-left: 15px;
+}
+
+/* About */
+#about-details ul>li{
+    display: inline;
+    padding-left: 10px;
+}
+
+
+/* Skills */
+.progress {
+    margin-bottom: 20px;
+    height: 10px;
+}
+
+/* Contacts */
+#subscribe-btn{
+    width: 100%;
+}
+
+#contact-form {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#contact-form > input {
+    margin-bottom: 10px;
+}
+
+#contact-details  li {
+    display: inline;
+    padding-left: 10px;
+}
+
+
